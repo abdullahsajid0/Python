@@ -12,3 +12,4 @@ while True:
         print("Invalid Input! Please enter numbers only!!")
  
 table(a)
+#this is new

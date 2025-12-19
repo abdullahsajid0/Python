@@ -58,7 +58,7 @@ Replace `C:\path\to\your\project` with your actual project path.
 Install Capacitor core, CLI, and Android platform:
 
 ```powershell
-npm install @capacitor/core @capacitor/cli @capacitor/android --legacy-peer-deps
+npm install @capacitor/core @capacitor/cli @capacitor/android @capacitor/camera @capacitor/geolocation @capacitor/push-notifications --legacy-peer-deps
 ```
 
 **Why `--legacy-peer-deps`?**

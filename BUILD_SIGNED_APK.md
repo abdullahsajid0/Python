@@ -95,7 +95,7 @@ cd D:\agroreef-ai-main\android
 
 ---
 
-## Step 8: Generate Keystore (One-time only)
+## Step 8: Generate Keystore (One-time only) AND WE ALSO HAVE TO KEEP IT SAFE
 
 Generate a keystore file for signing APKs. **Only do this once** - keep the keystore file safe for future updates:
 

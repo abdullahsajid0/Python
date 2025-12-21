@@ -374,6 +374,21 @@ adb install -r "android/app/build/outputs/apk/release/app-release.apk"
 
 ---
 
+
+
+## also add these permision in the xml file located at the \android\app\src\main\AndroidManifest.xml 
+```
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+   </manifest>
+```
+
 ## Common Errors and Solutions
 
 ### Error 1: "npm error could not determine executable to run"

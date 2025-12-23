@@ -1,6 +1,6 @@
 # Student Record Management System with dictionary and the list for day 10
 # Each student has a name and a list of grades
-# Define the student records dictionary
+
 student_records = {}
 def add_student(student_id, name, grades):
     student_records[student_id] = {

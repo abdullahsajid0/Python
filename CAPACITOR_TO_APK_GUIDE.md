@@ -41,6 +41,11 @@ Test-Path "$env:LOCALAPPDATA\Android\Sdk"
 
 ---
 
+## This one is the shortcutkey for make apk but it is used after one apk version is created already 
+
+```powershell
+npm run build; cd .. ; npx cap sync android  ; cd .\android\ ; .\gradlew assembleRelease
+```
 ## Complete Step-by-Step Guide
 
 ### Step 1: Navigate to Your Project
